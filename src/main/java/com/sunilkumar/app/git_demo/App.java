@@ -1,16 +1,10 @@
 package com.sunilkumar.app.git_demo;
-
-/**
- * Hello world!
- *
- */
-public class App 
+ class App 
 {
 	public void addData(String data)
 	{
-		System.out.println( "Data=" + data );
 		
-		if(data.equals("java"))
+		if(data.equals(Constant.Data_Type))
 		{
 			System.out.println( "Hello World!" );	
 		}
@@ -19,4 +13,4 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-}
+} 
